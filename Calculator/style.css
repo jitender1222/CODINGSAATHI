@@ -63,3 +63,23 @@
   .key-number {
     background-color: #333333;
   }
+
+  .key-equals {
+    grid-column: span 2;
+    background-color: #8bc34a;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .calculator {
+      width: 240px;
+    }
+    
+    button {
+      font-size: 18px;
+    }
+    
+    #result {
+      font-size: 32px;
+    }
+  }
+  
